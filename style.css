@@ -85,6 +85,8 @@ button {
     background-color: white !important;
 }
 
+
+
 .bento-card {
     position: relative;
     background: var(--muted);
@@ -114,11 +116,11 @@ button {
 }
 
 .text-xs {
-    font-size: .75rem;
+    font-size: .85rem;
     line-height: 1rem;
 }
 .rounded-md {
-    border-radius: .375rem;
+    border-radius: .380rem;
 }
 .py-0\.5 {
     padding-top: .125rem;
@@ -349,6 +351,29 @@ button {
     fill: #000000 !important;
   }
 /***** End Dark ****/
+
+.footer {
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    padding: 10px 0;
+}
+
+.footer p {
+    font-size: 14px;
+    font-weight: bold;
+    color: black; /* Default light mode color */
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    .footer p {
+        color: white; /* Changes text to white in dark mode */
+    }
+}
+
+
+
 
   
 
