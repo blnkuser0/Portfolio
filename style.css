@@ -354,25 +354,16 @@ button {
     fill: #000000 !important;
   }
 /***** End Dark ****/
-
 .footer {
     display: flex;
-    justify-content: center;  
+    justify-content: left;  
     align-items: center;  
     padding: 10px 0;
+    color: black;
 }
 
-.footer p {
-    font-size: 14px;
-    font-weight: bold;
-    color: black; /* Default light mode color */
-}
-
-/* Dark mode styles */
-@media (prefers-color-scheme: dark) {
-    .footer p {
-        color: white; /* Changes text to white in dark mode */
-    }
+.dark-mode .footer {
+    color: white;
 }
 
 
